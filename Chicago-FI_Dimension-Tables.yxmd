@@ -1,0 +1,1902 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="1574" height="697" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dimension Tables - Chicago Food Inspection</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* 
+from Stg_Chicago_FI</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <SessionReadOnly>True</SessionReadOnly>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+                <SingleRowFetch>False</SingleRowFetch>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=select Stg_Chicago_FI.* 
+fr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="DBA Name" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="AKA Name" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="License #" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Facility Type" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Risk" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Address" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="City" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="State" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Zip" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Inspection Date" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Inspection Type" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Results" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Violations" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Location" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Inspection_Date" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="DI_CreateDate" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="DateTime" />
+                <Field name="DI_WorkflowFileName" size="255" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="DI_WorkflowDirectory" size="1000" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.* &#xA;from Stg_Chicago_FI" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1098" y="528" width="505" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Chicago_FacilityType</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1123" y="577" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Facility Type" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="27">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="1303" y="577" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>FacilitySK</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="28">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1387" y="577" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="FacilitySK" selected="True" />
+                    <SelectField field="Facility Type" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="29">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1471" y="577" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_FacilityType</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="Custom">
+                        <Field Source="FacilitySK" Dest="FacilitySK" />
+                        <Field Source="Facility Type" Dest="FacilityType" />
+                        <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                        <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                        <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                      </AppendMapping>
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Upsert</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_FacilityType</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="35">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="1207" y="577" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="Facility Type" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1098" y="312" width="505" height="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Chicago_FoodRiskCategory</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="21">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1123" y="361" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Risk" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="22">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="1303" y="361" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>RiskSK</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="23">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1375" y="361" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="RiskSK" selected="True" />
+                    <SelectField field="Risk" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="24">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1471" y="361" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_FoodRiskCategory</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="ByName" />
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Upsert</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_FoodRiskCategory</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="33">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="1219" y="361" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="Risk" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="425" y="504" width="518" height="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Chicago_FoodInspectionType</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="14">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="643" y="553" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>InspectionTypeSK</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="15">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="811" y="565" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_FoodInspectionType</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="Custom">
+                        <Field Source="InspectionTypeSK" Dest="InspectionTypeSK" />
+                        <Field Source="Inspection Type" Dest="InspectionType" />
+                        <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                        <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                        <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                      </AppendMapping>
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Upsert</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_FoodInspectionTy...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="16">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="727" y="565" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="InspectionTypeSK" selected="True" />
+                    <SelectField field="Inspection Type" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="39">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="547" y="565" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="Inspection Type" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+            <Node ToolID="57">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="450" y="558" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Inspection Type" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="426" y="300" width="505" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Chicago_Restaurants</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="7">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="451" y="349" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="DBA Name" selected="True" />
+                    <SelectField field="AKA Name" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="8">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="631" y="349" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>RestaurantSK</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="9">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="715" y="349" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="RestaurantSK" selected="True" />
+                    <SelectField field="DBA Name" selected="True" />
+                    <SelectField field="AKA Name" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="10">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="799" y="349" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_Restaurants</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="Custom">
+                        <Field Source="RestaurantSK" Dest="RestaurantSK" />
+                        <Field Source="DBA Name" Dest="DBA_Name" />
+                        <Field Source="AKA Name" Dest="AKA_Name" />
+                        <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                        <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                        <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                      </AppendMapping>
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Upsert</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_Restaurants</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="38">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="547" y="349" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="DBA Name" />
+                    <Field field="AKA Name" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="426" y="108" width="505" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Chicago_Geo</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="2">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="451" y="168" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Address" selected="True" />
+                    <SelectField field="City" selected="True" />
+                    <SelectField field="State" selected="True" />
+                    <SelectField field="Zip" selected="True" />
+                    <SelectField field="Latitude" selected="True" />
+                    <SelectField field="Longitude" selected="True" />
+                    <SelectField field="Location" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="3">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="631" y="157" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>GeoSK</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="4">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="715" y="157" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="GeoSK" selected="True" />
+                    <SelectField field="Address" selected="True" />
+                    <SelectField field="City" selected="True" />
+                    <SelectField field="State" selected="True" />
+                    <SelectField field="Zip" selected="True" />
+                    <SelectField field="Latitude" selected="True" />
+                    <SelectField field="Longitude" selected="True" />
+                    <SelectField field="Location" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="6">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="799" y="157" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_Geo</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="ByName" />
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Upsert</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_Geo</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="37">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="547" y="168" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="Address" />
+                    <Field field="City" />
+                    <Field field="State" />
+                    <Field field="Zip" />
+                    <Field field="Latitude" />
+                    <Field field="Longitude" />
+                    <Field field="Location" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1098" y="103" width="505" height="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Dim_Chicago_FoodInspectionResults</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1123" y="164" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Results" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="18">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="1291" y="152" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FieldName>ResultsSK</FieldName>
+                  <StartValue>1</StartValue>
+                  <FieldType>Int32</FieldType>
+                  <FieldSize>6</FieldSize>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="19">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1375" y="152" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="ResultsSK" selected="True" />
+                    <SelectField field="Results" selected="True" />
+                    <SelectField field="DI_CreateDate" selected="True" />
+                    <SelectField field="DI_WorkflowFileName" selected="True" />
+                    <SelectField field="DI_WorkflowDirectory" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="20">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1471" y="152" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_FoodInspectionResults</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <AppendMap>
+                      <AppendMapping mode="ByName" />
+                    </AppendMap>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Upsert</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_FoodInspectionRe...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="32">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+                <Position x="1207" y="164" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UniqueFields>
+                    <Field field="Results" />
+                  </UniqueFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="772" width="722" height="212" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dimension Table - Business License</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="390" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>LicenseSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="283" y="823" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="ID" />
+                <Field field="LICENSE ID" />
+                <Field field="ACCOUNT NUMBER" />
+                <Field field="SITE NUMBER" />
+                <Field field="LEGAL NAME" />
+                <Field field="DOING BUSINESS AS NAME" />
+                <Field field="ADDRESS" />
+                <Field field="CITY" />
+                <Field field="STATE" />
+                <Field field="ZIP CODE" />
+                <Field field="WARD" />
+                <Field field="PRECINCT" />
+                <Field field="WARD PRECINCT" />
+                <Field field="POLICE DISTRICT" />
+                <Field field="LICENSE CODE" />
+                <Field field="LICENSE DESCRIPTION" />
+                <Field field="BUSINESS ACTIVITY ID" />
+                <Field field="BUSINESS ACTIVITY" />
+                <Field field="LICENSE NUMBER" />
+                <Field field="APPLICATION TYPE" />
+                <Field field="APPLICATION REQUIREMENTS COMPLETE" />
+                <Field field="CONDITIONAL APPROVAL" />
+                <Field field="LICENSE STATUS" />
+                <Field field="SSA" />
+                <Field field="LATITUDE" />
+                <Field field="LONGITUDE" />
+                <Field field="LOCATION" />
+                <Field field="APPLICATION_CREATED_DATE" />
+                <Field field="PAYMENT_DATE" />
+                <Field field="LICENSE_TERM_START_DATE" />
+                <Field field="LICENSE_TERM_EXPIRATION_DATE" />
+                <Field field="LICENSE_APPROVED_FOR_ISSUANCE" />
+                <Field field="DATE_ISSUED" />
+                <Field field="LICENSE_STATUS_CHANGE_DATE" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="655" y="823" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_BusinessLicenses</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="LicenseSK" Dest="LicenseSK" />
+                    <Field Source="ID" Dest="ID" />
+                    <Field Source="LICENSE ID" Dest="LICENSE_ID" />
+                    <Field Source="ACCOUNT NUMBER" Dest="ACCOUNT_NUMBER" />
+                    <Field Source="SITE NUMBER" Dest="SITE_NUMBER" />
+                    <Field Source="LEGAL NAME" Dest="LEGAL_NAME" />
+                    <Field Source="DOING BUSINESS AS NAME" Dest="DOING_BUSINESS_AS_NAME" />
+                    <Field Source="ADDRESS" Dest="ADDRESS" />
+                    <Field Source="CITY" Dest="CITY" />
+                    <Field Source="STATE" Dest="STATE" />
+                    <Field Source="ZIP CODE" Dest="ZIP_CODE" />
+                    <Field Source="WARD" Dest="WARD" />
+                    <Field Source="PRECINCT" Dest="PRECINCT" />
+                    <Field Source="WARD PRECINCT" Dest="WARD_PRECINCT" />
+                    <Field Source="POLICE DISTRICT" Dest="POLICE_DISTRICT" />
+                    <Field Source="LICENSE CODE" Dest="LICENSE_CODE" />
+                    <Field Source="LICENSE DESCRIPTION" Dest="LICENSE_DESCRIPTION" />
+                    <Field Source="BUSINESS ACTIVITY ID" Dest="BUSINESS_ACTIVITY_ID" />
+                    <Field Source="BUSINESS ACTIVITY" Dest="BUSINESS_ACTIVITY" />
+                    <Field Source="LICENSE NUMBER" Dest="LICENSE_NUMBER" />
+                    <Field Source="APPLICATION TYPE" Dest="APPLICATION_TYPE" />
+                    <Field Source="APPLICATION REQUIREMENTS COMPLETE" Dest="APPLICATION_REQUIREMENTS_COMPLETE" />
+                    <Field Source="CONDITIONAL APPROVAL" Dest="CONDITIONAL_APPROVAL" />
+                    <Field Source="LICENSE STATUS" Dest="LICENSE_STATUS" />
+                    <Field Source="SSA" Dest="SSA" />
+                    <Field Source="LATITUDE" Dest="LATITUDE" />
+                    <Field Source="LONGITUDE" Dest="LONGITUDE" />
+                    <Field Source="LOCATION" Dest="LOCATION" />
+                    <Field Source="APPLICATION_CREATED_DATE" Dest="APPLICATION_CREATED_DATE" />
+                    <Field Source="PAYMENT_DATE" Dest="PAYMENT_DATE" />
+                    <Field Source="LICENSE_TERM_START_DATE" Dest="LICENSE_TERM_START_DATE" />
+                    <Field Source="LICENSE_TERM_EXPIRATION_DATE" Dest="LICENSE_TERM_EXPIRATION_DATE" />
+                    <Field Source="LICENSE_APPROVED_FOR_ISSUANCE" Dest="LICENSE_APPROVED_FOR_ISSUANCE" />
+                    <Field Source="DATE_ISSUED" Dest="DATE_ISSUED" />
+                    <Field Source="LICENSE_STATUS_CHANGE_DATE" Dest="LICENSE_STATUS_CHANGE_DATE" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Upsert</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_BusinessLicenses</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="821" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* 
+from Stg_Chicago_BizLicense</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <SessionReadOnly>True</SessionReadOnly>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+                <SingleRowFetch>False</SingleRowFetch>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=select Stg_Chicago_BizLicens...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ID" size="16" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="LICENSE ID" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int32" />
+                <Field name="ACCOUNT NUMBER" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int32" />
+                <Field name="SITE NUMBER" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int16" />
+                <Field name="LEGAL NAME" size="117" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="DOING BUSINESS AS NAME" size="128" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="ADDRESS" size="80" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="CITY" size="30" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="STATE" size="2" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="ZIP CODE" size="5" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="WARD" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int16" />
+                <Field name="PRECINCT" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int16" />
+                <Field name="WARD PRECINCT" size="6" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="POLICE DISTRICT" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int16" />
+                <Field name="LICENSE CODE" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int16" />
+                <Field name="LICENSE DESCRIPTION" size="60" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="BUSINESS ACTIVITY ID" size="81" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="BUSINESS ACTIVITY" size="254" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="LICENSE NUMBER" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int32" />
+                <Field name="APPLICATION TYPE" size="6" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="APPLICATION CREATED DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="PAYMENT DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="CONDITIONAL APPROVAL" size="1" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="LICENSE TERM START DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="DATE ISSUED" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="LICENSE STATUS" size="3" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_String" />
+                <Field name="SSA" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Int16" />
+                <Field name="LATITUDE" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Double" />
+                <Field name="LONGITUDE" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="Double" />
+                <Field name="LOCATION" size="40" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="String" />
+                <Field name="APPLICATION_CREATED_DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="PAYMENT_DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="LICENSE_TERM_START_DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="LICENSE_TERM_EXPIRATION_DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="LICENSE_APPROVED_FOR_ISSUANCE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="DATE_ISSUED" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="LICENSE_STATUS_CHANGE_DATE" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="DI_CreateDate" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="DateTime" />
+                <Field name="DI_WorkflowFileName" size="255" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+                <Field name="DI_WorkflowDirectory" size="255" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_BizLicense.* &#xA;from Stg_Chicago_BizLicense" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="198" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ID" selected="True" />
+                <SelectField field="LICENSE ID" selected="True" />
+                <SelectField field="ACCOUNT NUMBER" selected="True" />
+                <SelectField field="SITE NUMBER" selected="True" />
+                <SelectField field="LEGAL NAME" selected="True" />
+                <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+                <SelectField field="ADDRESS" selected="True" />
+                <SelectField field="CITY" selected="True" />
+                <SelectField field="STATE" selected="True" />
+                <SelectField field="ZIP CODE" selected="True" />
+                <SelectField field="WARD" selected="True" />
+                <SelectField field="PRECINCT" selected="True" />
+                <SelectField field="WARD PRECINCT" selected="True" />
+                <SelectField field="POLICE DISTRICT" selected="True" />
+                <SelectField field="LICENSE CODE" selected="True" />
+                <SelectField field="LICENSE DESCRIPTION" selected="True" />
+                <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+                <SelectField field="BUSINESS ACTIVITY" selected="True" />
+                <SelectField field="LICENSE NUMBER" selected="True" />
+                <SelectField field="APPLICATION TYPE" selected="True" />
+                <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <SelectField field="CONDITIONAL APPROVAL" selected="True" />
+                <SelectField field="LICENSE STATUS" selected="True" />
+                <SelectField field="SSA" selected="True" />
+                <SelectField field="LATITUDE" selected="True" />
+                <SelectField field="LONGITUDE" selected="True" />
+                <SelectField field="LOCATION" selected="True" />
+                <SelectField field="APPLICATION_CREATED_DATE" selected="True" />
+                <SelectField field="PAYMENT_DATE" selected="True" />
+                <SelectField field="LICENSE_TERM_START_DATE" selected="True" />
+                <SelectField field="LICENSE_TERM_EXPIRATION_DATE" selected="True" />
+                <SelectField field="LICENSE_APPROVED_FOR_ISSUANCE" selected="True" />
+                <SelectField field="DATE_ISSUED" selected="True" />
+                <SelectField field="LICENSE_STATUS_CHANGE_DATE" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="DI_WorkflowDirectory" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="522" y="822" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="LicenseSK" selected="True" />
+                <SelectField field="ID" selected="True" />
+                <SelectField field="LICENSE ID" selected="True" />
+                <SelectField field="ACCOUNT NUMBER" selected="True" />
+                <SelectField field="SITE NUMBER" selected="True" />
+                <SelectField field="LEGAL NAME" selected="True" />
+                <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+                <SelectField field="ADDRESS" selected="True" />
+                <SelectField field="CITY" selected="True" />
+                <SelectField field="STATE" selected="True" />
+                <SelectField field="ZIP CODE" selected="True" />
+                <SelectField field="WARD" selected="True" />
+                <SelectField field="PRECINCT" selected="True" />
+                <SelectField field="WARD PRECINCT" selected="True" />
+                <SelectField field="POLICE DISTRICT" selected="True" />
+                <SelectField field="LICENSE CODE" selected="True" />
+                <SelectField field="LICENSE DESCRIPTION" selected="True" />
+                <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+                <SelectField field="BUSINESS ACTIVITY" selected="True" />
+                <SelectField field="LICENSE NUMBER" selected="True" />
+                <SelectField field="APPLICATION TYPE" selected="True" />
+                <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <SelectField field="CONDITIONAL APPROVAL" selected="True" />
+                <SelectField field="LICENSE STATUS" selected="True" />
+                <SelectField field="SSA" selected="True" />
+                <SelectField field="LATITUDE" selected="True" />
+                <SelectField field="LONGITUDE" selected="True" />
+                <SelectField field="LOCATION" selected="True" />
+                <SelectField field="APPLICATION_CREATED_DATE" selected="True" />
+                <SelectField field="PAYMENT_DATE" selected="True" />
+                <SelectField field="LICENSE_TERM_START_DATE" selected="True" />
+                <SelectField field="LICENSE_TERM_EXPIRATION_DATE" selected="True" />
+                <SelectField field="LICENSE_APPROVED_FOR_ISSUANCE" selected="True" />
+                <SelectField field="DATE_ISSUED" selected="True" />
+                <SelectField field="LICENSE_STATUS_CHANGE_DATE" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="DI_WorkflowDirectory" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="1013" width="1045" height="237" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption><![CDATA[Dimensional Table - ViolationCodes_SCD ]]></Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],
+	Stg_Chicago_FI.Violations,
+	Stg_Chicago_FI.DI_CreateDate,
+	Stg_Chicago_FI.DI_WorkflowFileName,
+	Stg_Chicago_FI.DI_WorkflowDirectory,
+	Stg_Chicago_FI.Inspection_Date 
+from Stg_Chicago_FI</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <SessionReadOnly>True</SessionReadOnly>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+                <SingleRowFetch>False</SingleRowFetch>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=select Stg_Chicago_FI.[Inspe...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Inspection ID" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],&#xA;	Stg_Chicago_FI.Violations,&#xA;	Stg_Chicago_FI.DI_CreateDate,&#xA;	Stg_Chicago_FI.DI_WorkflowFileName,&#xA;	Stg_Chicago_FI.DI_WorkflowDirectory,&#xA;	Stg_Chicago_FI.Inspection_Date &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Violations" size="16777216" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],&#xA;	Stg_Chicago_FI.Violations,&#xA;	Stg_Chicago_FI.DI_CreateDate,&#xA;	Stg_Chicago_FI.DI_WorkflowFileName,&#xA;	Stg_Chicago_FI.DI_WorkflowDirectory,&#xA;	Stg_Chicago_FI.Inspection_Date &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="DI_CreateDate" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],&#xA;	Stg_Chicago_FI.Violations,&#xA;	Stg_Chicago_FI.DI_CreateDate,&#xA;	Stg_Chicago_FI.DI_WorkflowFileName,&#xA;	Stg_Chicago_FI.DI_WorkflowDirectory,&#xA;	Stg_Chicago_FI.Inspection_Date &#xA;from Stg_Chicago_FI" type="DateTime" />
+                <Field name="DI_WorkflowFileName" size="255" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],&#xA;	Stg_Chicago_FI.Violations,&#xA;	Stg_Chicago_FI.DI_CreateDate,&#xA;	Stg_Chicago_FI.DI_WorkflowFileName,&#xA;	Stg_Chicago_FI.DI_WorkflowDirectory,&#xA;	Stg_Chicago_FI.Inspection_Date &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="DI_WorkflowDirectory" size="1000" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],&#xA;	Stg_Chicago_FI.Violations,&#xA;	Stg_Chicago_FI.DI_CreateDate,&#xA;	Stg_Chicago_FI.DI_WorkflowFileName,&#xA;	Stg_Chicago_FI.DI_WorkflowDirectory,&#xA;	Stg_Chicago_FI.Inspection_Date &#xA;from Stg_Chicago_FI" type="V_WString" />
+                <Field name="Inspection_Date" size="10" source="File: odbc:DSN=Chicago-SSMS|||select Stg_Chicago_FI.[Inspection ID],&#xA;	Stg_Chicago_FI.Violations,&#xA;	Stg_Chicago_FI.DI_CreateDate,&#xA;	Stg_Chicago_FI.DI_WorkflowFileName,&#xA;	Stg_Chicago_FI.DI_WorkflowDirectory,&#xA;	Stg_Chicago_FI.Inspection_Date &#xA;from Stg_Chicago_FI" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="450" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Violations</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Voilations</RootName>
+              <Delimeters value="@" />
+              <NumFields value="2" />
+              <Flags value="56" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="306" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Violations</Field>
+              <Delimeters value="|" />
+              <NumFields value="1" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="594" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>ViolationSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="522" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Inspection_Date] &gt;= '2018-07-01' THEN 'New_Code' ELSE 'Old_Code' ENDIF" field="Version" size="20" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Version = IF [Inspection_Date] &gt;= '2018-07-01' THEN 'New_Code' ELSE 'Old_Code' E...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="234" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Inspection ID" selected="True" />
+                <SelectField field="Violations" selected="True" size="12000" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_WorkflowFileName" selected="True" />
+                <SelectField field="DI_WorkflowDirectory" selected="True" />
+                <SelectField field="Inspection_Date" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="378" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Violations</Field>
+              <RegExExpression value="- Comments:" />
+              <CaseInsensitve value="True" />
+              <Method>Replace</Method>
+              <Replace expression="@ COMMENT(S):">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Violations</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+              </ParseComplex>
+              <Match>
+                <Field>Violations_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="161" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotNull</Operator>
+                <Field>Violations</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2022-10-17 19:06:14</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2022-10-17 19:06:14</StartDate>
+                  <EndDate>2022-10-17 19:06:14</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Violations])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="666" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Voilations1</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>VoilationsCode</RootName>
+              <Delimeters value="." />
+              <NumFields value="2" />
+              <Flags value="59" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="894" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="VoilationCode" />
+                <Field field="VoilationDescription" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="750" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ViolationSK" selected="True" />
+                <SelectField field="Version" selected="True" />
+                <SelectField field="VoilationsCode1" selected="True" rename="VoilationCode" type="Int32" size="4" />
+                <SelectField field="VoilationsCode2" selected="True" rename="VoilationDescription" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings>
+            <Position x="822" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"VoilationCode","VoilationDescription"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="978" y="1062" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Dim_Chicago_ViolationCodes_SCD</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="ViolationSK" Dest="ViolationSK" />
+                    <Field Source="Version" Dest="Version" />
+                    <Field Source="VoilationCode" Dest="ViolationCode" />
+                    <Field Source="VoilationDescription" Dest="ViolationDescription" />
+                  </AppendMapping>
+                </AppendMap>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Upsert</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Dim_Chicago_ViolationCodes_S...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Unique" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Unique" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Unique" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Unique" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Unique" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Unique" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="True" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Unique" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output26" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago-FI_Dimension-Tables</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="00dcca97-ea4c-4957-888a-7480ff4df6db" />
+      <Telemetry>
+        <PreviousWorkflowId value="aeada0e3-7750-408b-a478-306daa575774" />
+        <OriginWorkflowId value="e9a7fc1a-46cb-4107-b5e2-db9c66391d46" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

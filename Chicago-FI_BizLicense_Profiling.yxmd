@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sindh\Downloads\Business_Licenses.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Business_Licenses.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE ID" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ACCOUNT NUMBER" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="SITE NUMBER" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LEGAL NAME" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="DOING BUSINESS AS NAME" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CITY" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="STATE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ZIP CODE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="WARD" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="PRECINCT" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="WARD PRECINCT" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="POLICE DISTRICT" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE CODE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE DESCRIPTION" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY ID" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE NUMBER" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION TYPE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION CREATED DATE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="PAYMENT DATE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CONDITIONAL APPROVAL" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE TERM START DATE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="DATE ISSUED" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE STATUS" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="SSA" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="210" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ID" selected="True" />
+            <Field field="LICENSE ID" selected="True" />
+            <Field field="ACCOUNT NUMBER" selected="True" />
+            <Field field="SITE NUMBER" selected="True" />
+            <Field field="LEGAL NAME" selected="True" />
+            <Field field="DOING BUSINESS AS NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="WARD" selected="True" />
+            <Field field="PRECINCT" selected="True" />
+            <Field field="WARD PRECINCT" selected="True" />
+            <Field field="POLICE DISTRICT" selected="True" />
+            <Field field="LICENSE CODE" selected="True" />
+            <Field field="LICENSE DESCRIPTION" selected="True" />
+            <Field field="BUSINESS ACTIVITY ID" selected="True" />
+            <Field field="BUSINESS ACTIVITY" selected="True" />
+            <Field field="LICENSE NUMBER" selected="True" />
+            <Field field="APPLICATION TYPE" selected="True" />
+            <Field field="APPLICATION CREATED DATE" selected="True" />
+            <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <Field field="PAYMENT DATE" selected="True" />
+            <Field field="CONDITIONAL APPROVAL" selected="True" />
+            <Field field="LICENSE TERM START DATE" selected="True" />
+            <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <Field field="DATE ISSUED" selected="True" />
+            <Field field="LICENSE STATUS" selected="True" />
+            <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <Field field="SSA" selected="True" />
+            <Field field="LATITUDE" selected="True" />
+            <Field field="LONGITUDE" selected="True" />
+            <Field field="LOCATION" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="16" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE ID" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Int32" />
+            <Field name="SITE NUMBER" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="CITY" size="30" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="STATE" size="2" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="WARD" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Byte" />
+            <Field name="PRECINCT" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="POLICE DISTRICT" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Byte" />
+            <Field name="LICENSE CODE" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="APPLICATION CREATED DATE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="V_String" />
+            <Field name="SSA" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Byte" />
+            <Field name="LATITUDE" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Double" />
+            <Field name="LONGITUDE" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="Double" />
+            <Field name="LOCATION" size="40" source="File: C:\Users\sindh\Downloads\Business_Licenses.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="798" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="255" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" />
+            <SelectField field="LICENSE ID" selected="True" />
+            <SelectField field="ACCOUNT NUMBER" selected="True" />
+            <SelectField field="SITE NUMBER" selected="True" />
+            <SelectField field="LEGAL NAME" selected="True" />
+            <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+            <SelectField field="ADDRESS" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STATE" selected="True" />
+            <SelectField field="ZIP CODE" selected="True" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="WARD PRECINCT" selected="True" />
+            <SelectField field="POLICE DISTRICT" selected="True" />
+            <SelectField field="LICENSE CODE" selected="True" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" />
+            <SelectField field="APPLICATION TYPE" selected="True" />
+            <SelectField field="APPLICATION CREATED DATE" selected="True" />
+            <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <SelectField field="PAYMENT DATE" selected="True" />
+            <SelectField field="CONDITIONAL APPROVAL" selected="True" />
+            <SelectField field="LICENSE TERM START DATE" selected="True" />
+            <SelectField field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <SelectField field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <SelectField field="DATE ISSUED" selected="True" />
+            <SelectField field="LICENSE STATUS" selected="True" />
+            <SelectField field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <SelectField field="SSA" selected="True" />
+            <SelectField field="LATITUDE" selected="True" />
+            <SelectField field="LONGITUDE" selected="True" />
+            <SelectField field="LOCATION" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="282" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>APPLICATION CREATED DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>APPLICATION_CREATED_DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert APPLICATION CREATED DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="354" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>PAYMENT DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>PAYMENT_DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert PAYMENT DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="426" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE TERM START DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>LICENSE_TERM_START_DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE TERM START DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="498" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE TERM EXPIRATION DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>LICENSE_TERM_EXPIRATION_DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE TERM EXPIRATION DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="558" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE APPROVED FOR ISSUANCE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>LICENSE_APPROVED_FOR_ISSUANCE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE APPROVED FOR ISSUANCE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="642" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>DATE ISSUED</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>DATE_ISSUED</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert DATE ISSUED From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="726" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE STATUS CHANGE DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>LICENSE_STATUS_CHANGE_DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE STATUS CHANGE DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="1218" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="1194" y="367" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">ID=False,LICENSE ID=False,ACCOUNT NUMBER=False,SITE NUMBER=False,LEGAL NAME=False,DOING BUSINESS AS NAME=False,ADDRESS=False,CITY=False,STATE=False,ZIP CODE=False,WARD=False,PRECINCT=False,WARD PRECINCT=False,POLICE DISTRICT=False,LICENSE CODE=False,LICENSE DESCRIPTION=False,BUSINESS ACTIVITY ID=False,BUSINESS ACTIVITY=False,LICENSE NUMBER=False,APPLICATION TYPE=False,APPLICATION CREATED DATE=False,APPLICATION REQUIREMENTS COMPLETE=False,PAYMENT DATE=False,CONDITIONAL APPROVAL=False,LICENSE TERM START DATE=False,LICENSE TERM EXPIRATION DATE=False,LICENSE APPROVED FOR ISSUANCE=False,DATE ISSUED=False,LICENSE STATUS=False,LICENSE STATUS CHANGE DATE=False,SSA=False,LATITUDE=False,LONGITUDE=False,LOCATION=False,DI_CreateDate=True,DI_WorkflowFileName=True,DI_WorkflowDirectory=False</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1374" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sindh\AppData\Local\Temp\Engine_18348_07b35a81f5f1d344b1cc031304ba5fc4_\Engine_18348_4b423d8443681e4dbc7cf95b1e16ef88~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1386" y="295" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sindh\AppData\Local\Temp\Engine_18348_07b35a81f5f1d344b1cc031304ba5fc4_\Engine_18348_dd30d6ef505ca04496b92b26f39c8a65~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1386" y="367" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sindh\AppData\Local\Temp\Engine_18348_07b35a81f5f1d344b1cc031304ba5fc4_\Engine_18348_c043d17b9e8da841acc49d1a8a87da5d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1386" y="439" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sindh\AppData\Local\Temp\Engine_18348_07b35a81f5f1d344b1cc031304ba5fc4_\Engine_18348_af5102ffc600bb43ba166dfa7d3fe679~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="941" y="138" width="199" height="195" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Staging Output Table</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="966" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=Chicago-SSMS|||Stg_Chicago_BizLicense</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionSize>10000</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=Chicago-SSMS
+Query=Stg_Chicago_BizLicense</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Reports" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Interactive" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago-FI_BizLicense_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e7aaef0e-add3-42e9-a9d0-fc7d336d0a93" />
+      <Telemetry>
+        <PreviousWorkflowId value="9332592e-9084-416a-821d-52da78731e63" />
+        <OriginWorkflowId value="d0a6df18-fdea-4ba0-b7d1-d12fa049513b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
